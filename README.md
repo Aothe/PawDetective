@@ -30,22 +30,20 @@ Run the client by executing npm start from inside the client folder. Run the ser
 
 ## Front-end
 
-[React]()
+[React](https://reactjs.org/)
 
-[Auth0]()
+[Auth0](https://auth0.com/)
 
-[Google Maps API]()
+[Google Maps API](https://developers.google.com/maps)
 
-[Firebase storage]()
+[Firebase storage](https://firebase.google.com/)
 
 ## Back-end
 
-[Express]()
+[Express](https://expressjs.com/)
 
-[Node JS]()
+[Node JS](https://nodejs.org/en/)
 
-[Mongoose]()
+[Mongoose](https://mongoosejs.com/)
 
-[MongoDB]()
-
-[Auth0]()
+[MongoDB](https://www.mongodb.com/)
