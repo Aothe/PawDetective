@@ -7,3 +7,6 @@ Pets are a beloved member of the owner's family. Losing your pet can be overwhel
 Paw Detective is an app specifically dedicated to helping people bring pets back to their families.
 
 # Getting Started
+
+1. Clone the repo
+2. 
