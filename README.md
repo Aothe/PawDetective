@@ -1,4 +1,4 @@
-## PawDetective
+# PawDetective
 
 Paw Detective is a React Application that helps pet owners reunite with their lost animal friends and on the other side help people that come across a lost animal find its owner and help the pet return home.
 
@@ -6,4 +6,4 @@ Pets are a beloved member of the owner's family. Losing your pet can be overwhel
 
 Paw Detective is an app specifically dedicated to helping people bring pets back to their families.
 
-## Getting Started
+# Getting Started
