@@ -28,14 +28,23 @@ Run the client by executing npm start from inside the client folder. Run the ser
 
 # Tech stack
 Front-end
+
 [React]()
+
 [Auth0]()
+
 [Google Maps API]()
+
 [Firebase storage]()
 
 Back-end
+
 [Express]()
+
 [Node JS]()
+
 [Mongoose]()
+
 [MongoDB]()
+
 [Auth0]()
