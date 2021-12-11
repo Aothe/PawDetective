@@ -8,20 +8,34 @@ Paw Detective is an app specifically dedicated to helping people bring pets back
 
 # Getting Started
 
-## Clone the repo
+1. Clone the repo
 
 https://github.com/Aothe/PawDetective
 
-## Install Dependencies 
+2. Install Dependencies 
 
 Navigate into the ./client folder and run npm install
 Navigate into the ./server folder and run npm install
 
-## Add Environmental Variables
+3. Add Environmental Variables
 
 Within the folder there is an example.env file. Copy the variables from that file, paste them on a new .env file that you will create locally and fill the variables with your local corresponding values.
 Do the same for the ./server folder.
 
-## Start the App
+4. Start the App
 
 Run the client by executing npm start from inside the client folder. Run the server by executing nodemon from inside the server folder.
+
+# Tech stack
+Front-end
+[React]()
+[Auth0]()
+[Google Maps API]()
+[Firebase storage]()
+
+Back-end
+[Express]()
+[Node JS]()
+[Mongoose]()
+[MongoDB]()
+[Auth0]()
