@@ -10,13 +10,13 @@ The working repository for this project is [urisk333/PawDetective](https://githu
 # Getting Started
 
 1. Clone the repo
-```
+
 https://github.com/urisk333/PawDetective
-```
+
 2. Install Dependencies 
 
-Navigate into the ./client folder and run npm install
-Navigate into the ./server folder and run npm install
+Navigate into the ./client folder and run ```npm install```
+Navigate into the ./server folder and run ```npm install```
 
 3. Add Environmental Variables
 
@@ -25,7 +25,7 @@ Do the same for the ./server folder.
 
 4. Start the App
 
-Run the client by executing npm start from inside the client folder. Run the server by executing nodemon from inside the server folder.
+Run the client by executing ```npm start``` from inside the client folder. Run the server by executing ```nodemon``` from inside the server folder.
 
 
 # Functionality added from the original repo
