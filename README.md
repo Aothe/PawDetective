@@ -10,9 +10,9 @@ The working repository for this project is [urisk333/PawDetective](https://githu
 # Getting Started
 
 1. Clone the repo
-
+```
 https://github.com/urisk333/PawDetective
-
+```
 2. Install Dependencies 
 
 Navigate into the ./client folder and run npm install
