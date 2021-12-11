@@ -2,9 +2,10 @@
 
 Paw Detective is a React Application that helps pet owners reunite with their lost animal friends and on the other side help people that come across a lost animal find its owner and help the pet return home.
 
-Pets are a beloved member of the owner's family. Losing your pet can be overwheling and searching for your friend can be stressfull. Owners are posting on different platforms and groups on social media, or even on trees! ads about their pet in hope that someone might contact them having good news.
+This Project was originally forked from Dream Trip by Anastasia Pop ([Github](https://github.com/Natasa410) -[LinkedIn](https://www.linkedin.com/in/anastasia-papaioannou410/))
 
-Paw Detective is an app specifically dedicated to helping people bring pets back to their families.
+The working repository for this project is [urisk333/PawDetective](https://github.com/urisk333/PawDetective) from where this particular repository has been forked.
+
 
 # Getting Started
 
@@ -25,6 +26,19 @@ Do the same for the ./server folder.
 4. Start the App
 
 Run the client by executing npm start from inside the client folder. Run the server by executing nodemon from inside the server folder.
+
+
+# Functionality added from the original repo
+
+1. Re-factor the whole codebase into Typescript
+2. Added Unit, Integration and End-2-End testing
+3. Updated React to v6
+
+# Developers
+- Ivan Car - [Github](https://github.com/urisk333) - [LinkedIn](https://www.linkedin.com/in/ivan-car/)
+- David Ryan - [Github](https://github.com/djr319) - [LinkedIn](https://www.linkedin.com/in/pilotdavidryan/)
+- Liam Morris - [Github](https://github.com/Aothe) - [LinkedIn](https://github.com/Aothe)
+
 
 # Tech stack
 
