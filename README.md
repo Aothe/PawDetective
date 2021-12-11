@@ -27,7 +27,8 @@ Do the same for the ./server folder.
 Run the client by executing npm start from inside the client folder. Run the server by executing nodemon from inside the server folder.
 
 # Tech stack
-Front-end
+
+## Front-end
 
 [React]()
 
@@ -37,7 +38,7 @@ Front-end
 
 [Firebase storage]()
 
-Back-end
+## Back-end
 
 [Express]()
 
