@@ -1,4 +1,4 @@
-.form-header {
+/* .form-header {
   text-align: left;
   background-color: #bc4639;
   color: #5c2018;
@@ -8,7 +8,6 @@
 .profile-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   border: 1px solid #bc4639;
   max-width: 800px;
@@ -58,4 +57,4 @@
   background-color: #4285f4;
   color: #f3e0dc;
   font-weight: bold;
-}
+} */
