@@ -11,7 +11,7 @@ The working repository for this project is [urisk333/PawDetective](https://githu
 
 1. Clone the repo
 
-https://github.com/urisk333/PawDetective
+ - [Paw Detective](https://github.com/urisk333/PawDetective)
 
 2. Install Dependencies 
 
