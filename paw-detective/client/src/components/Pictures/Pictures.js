@@ -1,12 +1,10 @@
-import './Pictures.css';
-import { useState } from 'react';
-import { storage } from './firebaseConfig';
-
-// Does this work?
+import "./Pictures.css";
+import { useState } from "react";
+import { storage } from "./firebaseConfig";
 
 const PicturesUpload = ({ setPicture }) => {
   const [image, setImage] = useState(null);
-  const [url, setUrl] = useState('');
+  const [url, setUrl] = useState("");
   const [progress, setProgress] = useState(0);
 
   const handleChange = (event) => {
@@ -19,7 +17,7 @@ const PicturesUpload = ({ setPicture }) => {
     if (image) {
       const uploadTask = storage.ref(`images/${image.name}`).put(image);
       uploadTask.on(
-        'state_changed',
+        "state_changed",
         //current progress of the file upload
         (snapshot) => {
           const progress = Math.round(
@@ -32,7 +30,7 @@ const PicturesUpload = ({ setPicture }) => {
         },
         () => {
           storage
-            .ref('images')
+            .ref("images")
             .child(image.name)
             .getDownloadURL()
             .then((url) => {
@@ -53,14 +51,13 @@ const PicturesUpload = ({ setPicture }) => {
       <div>
         <img
           className="pet-picture"
-          src={url || 'http://via.placeholder.com/200x200'}
+          src={url || "http://via.placeholder.com/200x200"}
           alt="firebase-pic"
         />
       </div>
       <div className="pictures-button" onClick={handleUpload}>
         Upload Picture
       </div>
-      {/* Change to a button   */}
     </div>
   );
 };

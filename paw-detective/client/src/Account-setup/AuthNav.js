@@ -2,7 +2,7 @@ import React from "react";
 import AuthenticationButton from "./Auth-button";
 
 const AuthNav = () => (
-  <div className="rounded-lg p-2">
+  <div className="navbar-nav ml-auto">
     <AuthenticationButton />
   </div>
 );

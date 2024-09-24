@@ -1,3 +1,1 @@
 # PawDetective
-
-CHANGING THE README

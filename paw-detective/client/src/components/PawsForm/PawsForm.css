@@ -1,4 +1,17 @@
-/*
+.form-header {
+  text-align: left;
+  background-color: #bc4639;
+  color: #5c2018;
+  display: flex;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey;
+}
 
 .add-form {
   align-items: center;
@@ -43,6 +56,3 @@ label {
   color: #f3e0dc;
   font-weight: bold;
 }
-h4 {
-  color: blue;
-} */

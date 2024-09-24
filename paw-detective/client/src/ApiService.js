@@ -1,17 +1,15 @@
-import { SendPaw } from './components/Interfaces';
-
-const BASE_URL: string = 'http://localhost:3005';
+const BASE_URL = "http://localhost:3005";
 
 async function getPaws() {
   try {
     const allPaws = await fetch(`${BASE_URL}/paws`);
-    return allPaws.json();
+    return await allPaws.json();
   } catch (error) {
     console.log(error);
   }
 }
 
-async function postPaws(body: SendPaw) {
+async function postPaws(body) {
   const {
     email,
     token,
@@ -23,8 +21,6 @@ async function postPaws(body: SendPaw) {
     lat,
     long,
   } = body;
-
-  // What will come back from DB if wrong body is passed (?) catch statement?
 
   const pet = {
     lostOrFound,
@@ -39,10 +35,10 @@ async function postPaws(body: SendPaw) {
 
   try {
     const newPaws = await fetch(`${BASE_URL}/paws`, {
-      method: 'POST',
+      method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(pet),
     });
@@ -52,9 +48,9 @@ async function postPaws(body: SendPaw) {
   }
 }
 
-async function deletePaws(id: string): Promise<void> {
+async function deletePaws(id) {
   await fetch(`${BASE_URL}/paws/${id}`, {
-    method: 'DELETE',
+    method: "DELETE",
   });
 }
 

@@ -1,8 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
-const dotenv = require("dotenv");
-dotenv.config();
 
 //getting domain and client id from environment variables (.env)
 const Auth0ProviderWithHistory = ({ children }) => {
@@ -12,10 +10,10 @@ const Auth0ProviderWithHistory = ({ children }) => {
 
   //history: redirect the user to a specific url ,
   //access history obj and push on things
-  const navigate = useNavigate();
+  const history = useHistory();
 
   const onRedirectCallback = (appState) => {
-    navigate(appState?.returnTo || window.location.pathname);
+    history.push(appState?.returnTo || window.location.pathname);
   };
 
   return (
@@ -26,7 +24,6 @@ const Auth0ProviderWithHistory = ({ children }) => {
       redirectUri={window.location.origin}
       onRedirectCallback={onRedirectCallback}
       audience={audience}
-      cacheLocation="localstorage"
     >
       {children}
     </Auth0Provider>
